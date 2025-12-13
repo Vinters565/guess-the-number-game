@@ -35,8 +35,9 @@ const Home = () => {
     totalAttempts = 0n,
     maxAttempts = 0n,
     prizePool = 0n,
-    remainingAttempts = 0n,
-    remainingHints = 0n,
+    remainingAttempts = 0n, // затычка для комплилятора
+    ,
+    /* usedHints */ remainingHints = 0n,
     hintCost = 0n,
     maxHintsPerGame = 0n,
   ] = gameStatus || [];
